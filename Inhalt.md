@@ -7,6 +7,7 @@ _> Polymer Sektion_:
 _> Android Sektion_:
 
 - [AndroidST_HelloWorld](#androidst_helloworld)
+- [WetterGit](#wetter_git)
 
 
 
@@ -52,8 +53,11 @@ polymer serve --open
 
 *******************
 ********************
+Android Studio: <a href="https://developer.android.com/studio/install"> Install Link </a> <br>
+Device Emulator: <a href="https://developer.android.com/studio/run/managing-avds"> Guide </a> <br>
+Debuggen mit Android Devices: <a href="https://developers.google.com/web/tools/chrome-devtools/remote-debugging/"> Link </a>
 ************
-<br> <br> <br>
+<br> <br> 
 
 ## AndroidST_HelloWorld: <a href="hhttps://github.com/FelixSchubi/AndroidST_HelloWorld">Link</a>
 ********
@@ -68,3 +72,42 @@ Wie die Installation funktioniert
 hier morgen noch einfügen
 ;/ Kein Android Studio /;
 ````
+
+************
+<br> <br> <br>
+
+## WetterGit: <a href="hhttps://github.com/FelixSchubi/WetterGit">Link</a>
+********
+Einfach Android Applikarion für das Wetter<br>
+Grundlage hierfür: <a href="https://developer.android.com/training/basics/firstapp/index.html"> Udacity </a> <br>
+- Verbindung von App mit dem Internet
+- & Regelmäßigen Datenabfragen
+- Gradle als Grundgerüst
+- Nicht viel verändert sonder eher als Verständnisprojekt
+
+
+```bash
+Wie die Installation funktioniert
+hier morgen noch einfügen
+;/ Kein Android Studio /;
+````
+
+************
+*******
+<br> <br> <br>
+
+## C-Test: <a href="https://github.com/FelixSchubi/C-Test">Link</a>
+********
+Testen von einfachen C - Programmen : <a href="http://cunit.sourceforge.net"> C-Unit </a> <br>
+- Verstehen von Unit Tests
+- Schreiben solcher Test (Als Übung für das Studium)
+- Dokumentation und Vorgehen sind <a href="https://github.com/FelixSchubi/C-Test/blob/master/README.md">hier</a>
+und <a href="https://github.com/FelixSchubi/C-Test/blob/master/Vorgehen_%3EDatabase.md"> hier </a> zu finden 
+- Als Hilfestellung kann das Programm <a href="https://netbeans.org/">Netbeans </a> verwendet werden
+- Beispiel: <a href="https://github.com/FelixSchubi/C-Test/blob/master/11_16.04.2018/Database.md"> Studentendatenbank </a>
+
+```bash
+http://cunit.sourceforge.net/
+````
+
+
