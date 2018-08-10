@@ -2,20 +2,24 @@
 
 | Art | Repositorys |
 | --- | --- |
-| Polymer | [Polymer2_test](#polymer2_test), [News-App](#news-app)  |
+| Polymer| [Polymer2_test](#polymer2_test), [News-App](#news-app)  |
 | Android |[AndroidST_HelloWorld](#androidst_helloworld), [WetterGit](#wetter_git)  |
 | C|[C-Test](#c-test)|
 | Java | [Java](#java) |
-| Springboot | [Springboot](#springboot), [SpringBoot_JPA_SQL](#springboot_jpa_sql), [JpaWithSpringBoot](#jpawithspringboot)|
+| Springboot | [Springboot](#springboot), [SpringBoot_JPA_SQL](#springboot_jpa_sql), [JpaWithSpringBoot](#jpawithspringboot), [SpringJpa](#springjpa)|
 
 <br>
 
 
-***
-***
-
-
 <br> 
+<br> 
+<br> 
+
+***
+
+<h1> <p style="text-align: center;"> Polymer </p>  </b> </h1>
+
+*******
 
 ## Polymer2_test:
  <a href="https://github.com/FelixSchubi/Polymer2_test">Link</a>
@@ -52,11 +56,14 @@ bower i
 polymer serve --open 
 ````
 
-<br> <br> <br>
+<br> 
+<br> 
+<br> 
 
-*******************
- <b>Android </b>
-********************
+***
+
+<h1> <p style="text-align: center;"> Android </p>  </b> </h1>
+
 Android Studio: <a href="https://developer.android.com/studio/install"> Install Link </a> <br>
 Device Emulator: <a href="https://developer.android.com/studio/run/managing-avds"> Guide </a> <br>
 Debuggen mit Android Devices: <a href="https://developers.google.com/web/tools/chrome-devtools/remote-debugging/"> Link </a>
@@ -98,9 +105,15 @@ hier morgen noch einfügen
 ;/ Kein Android Studio /;
 ````
 
-************
+<br> 
+<br> 
+<br> 
+
+***
+
+<h1> <p style="text-align: center;"> Prozedurale Programmierung - C </p>  </b> </h1>
+
 *******
-<br> <br> <br>
 
 ## C-Test: 
 <a href="https://github.com/FelixSchubi/C-Test">Link</a>
@@ -117,9 +130,15 @@ und <a href="https://github.com/FelixSchubi/C-Test/blob/master/Vorgehen_%3EDatab
 http://cunit.sourceforge.net/
 ````
 
-************
+<br> 
+<br> 
+<br> 
+
+***
+
+<h1> <p style="text-align: center;"> Java </p>  </b> </h1>
+
 *******
-<br> <br> <br>
 
 ## Java: 
 <a href="https://github.com/FelixSchubi/Java">Link</a>
@@ -130,12 +149,15 @@ Einstieg in Java und Lernen für das Studium
 - Einfacher Stack
 - Object Stack
 - Als Hilfestellung kann das Buch <a href="http://openbook.rheinwerk-verlag.de/javainsel/"> Java ist auch eine Insel von Christian Ullenbloom </a> verwendet werden
-
+<br> 
+<br> 
+<br> 
 ***
 
-************
+<h1> <p style="text-align: center;"> Springboot </p>  </b> </h1>
+
 *******
-<br> <br> <br>
+
 
 ## Springboot: 
 <a href="https://github.com/FelixSchubi/Springboot">Link</a>
@@ -163,7 +185,7 @@ Install:
 ***
 
 
-<br> <br> <br>
+<br> 
 
 ## SpringBoot_JPA_SQL: 
 <a href="https://github.com/FelixSchubi/SpringBoot_JPA_SQL">Link</a>
@@ -207,11 +229,12 @@ Alle löschen: drop table users;
 
 
 ***
+<br> 
 
 ## JpaWithSpringBoot: 
 <a href="https://github.com/FelixSchubi/JpaWithSpringBoot">Link</a>
 
-Kleine Anwendung im Terminal: <br>
+Kleine Anwendung im Terminal (rein Java): <br>
 - Anzeigen einer Liste von Nutzern aus einer SQL Datei
 - Anlegen eines neuen Nutzers
 - kleine Berechnungen
@@ -223,5 +246,44 @@ Kleine Anwendung im Terminal: <br>
 - mvn spring-boot:run
 - Daten eingeben
 ````
+***
+<br> 
+
+
+## SpringJpa: 
+<a href="https://github.com/FelixSchubi/SpringJpa">Link</a>
+
+Springboot - meine Master Anwendung: <br>
+- Anzeigen einer Liste von Nutzern aus einer SQL Datei in Tabellenform
+    -> Ähnlich wie oben
+- Ehemalige Wetter - Anwendung implementiert
+    -> Sources Angepasst
+    -> Service-Worker überarbeitet
+- 
+
+```bash
+# Springboot Teil
+- git clone https://github.com/FelixSchubi/SpringJpa
+- cd SpringJpa-master
+- (Falls maven noch nich installiert wurde: sudo apt-get install maven )
+- mvn install
+- mvn spring-boot:run
+- Daten eingeben
+
+
+# SQL Teil 
+Hier kann man alle Nutzer sehen und auch alle löschen
+*Alles im Terminal*
+- mysql -u root -p
+- Hamster12!?
+- use User;
+**************************************
+Nutzer anzeigen: select * from User;
+*********************
+Alle löschen: drop table User;
+**************************************
+- exit;
+````
+
 
 
