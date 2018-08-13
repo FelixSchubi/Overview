@@ -32,7 +32,7 @@ Kleine Web - Applikation um das <a href="https://www.polymer-project.org/2.0/doc
 Install Guide:
 ```bash
 git clone https://github.com/FelixSchubi/Polymer2_test
-cd Polymer2_test-master
+cd Polymer2_test
 bower i
 polymer serve --open 
 ````
@@ -53,7 +53,7 @@ Grundlage hierfür war die:" <a href="https://www.polymer-project.org/2.0/toolbo
 
 ```bash
 git clone https://github.com/FelixSchubi/News-App
-cd News-App-master
+cd News-App
 bower i
 polymer serve --open 
 ````
@@ -82,9 +82,15 @@ Grundlage hierfür: <a href="https://developer.android.com/training/basics/first
 
 
 ```bash
-Wie die Installation funktioniert
-hier morgen noch einfügen
-;/ Kein Android Studio /;
+- git clone https://github.com/FelixSchubi/AndroidST_HelloWorld
+- cd AndroidST_HelloWorld
+AndroidStudio Starten;
+Projekt Öffnen;
+strg + F11; -> Applikation wird gebaut;
+Umschalt + F10; -> Emulator auswählen (ggf. Installieren);
+Es kann auch ein richtiges Gerät angeschlossen werden:
+    - https://developer.android.com/studio/run/device
+App Startet!
 ````
 
 ************
@@ -102,9 +108,15 @@ Grundlage hierfür: <a href="https://developer.android.com/training/basics/first
 
 
 ```bash
-Wie die Installation funktioniert
-hier morgen noch einfügen
-;/ Kein Android Studio /;
+- git clone https://github.com/FelixSchubi/WetterGit
+- cd WetterGit
+AndroidStudio Starten;
+Projekt Öffnen;
+strg + F11; -> Applikation wird gebaut;
+Umschalt + F10; -> Emulator auswählen (ggf. Installieren);
+Es kann auch ein richtiges Gerät angeschlossen werden:
+    - https://developer.android.com/studio/run/device
+App Startet!
 ````
 
 <br> 
@@ -176,7 +188,7 @@ Zweck der WebApp:
 Install:
 ```bash
 - git clone https://github.com/FelixSchubi/Springboot
-- cd Springboot-master
+- cd Springboot
 - (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
@@ -205,7 +217,7 @@ Install:
 ```bash
 # SpringBoot Teil:
 - git clone https://github.com/FelixSchubi/SpringBoot_JPA_SQL
-- cd SpringBoot_JPA_SQL-master
+- cd SpringBoot_JPA_SQL
 - (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
@@ -242,7 +254,7 @@ Kleine Anwendung im Terminal (rein Java): <br>
 - kleine Berechnungen
 ```bash
 - git clone https://github.com/FelixSchubi/JpaWithSpringBoot
-- cd JpaWithSpringBoot-master
+- cd JpaWithSpringBoot
 - (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
@@ -266,7 +278,7 @@ Springboot - meine Master Anwendung: <br>
 ```bash
 # Springboot Teil
 - git clone https://github.com/FelixSchubi/SpringJpa
-- cd SpringJpa-master
+- cd SpringJpa
 - (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
