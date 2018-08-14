@@ -111,9 +111,9 @@ App Startet!
 ## WetterGit: 
 <a href="https://github.com/FelixSchubi/WetterGit">Link</a>
 
-Einfach Android Applikarion für das Wetter<br>
+Einfache Android Applikation für das Wetter<br>
 Grundlage hierfür: <a href="https://developer.android.com/training/basics/firstapp/index.html"> Udacity </a> <br>
-- Verbindung von App mit dem Internet
+- Verbindung von einer App mit dem Internet
 - & Regelmäßigen Datenabfragen
 - Gradle als Grundgerüst
 - Nicht viel verändert sonder eher als Verständnisprojekt
@@ -204,8 +204,8 @@ Einstieg in Java und Lernen für das Studium
 - git clone https://github.com/FelixSchubi/Java
 - cd Java/Hello\ World/
 # Ein Beispiel
-- javac hWorld.java
-- java hWorld
+- javac hWorld.java (Kompilliert das Programm)
+- java hWorld (Startet das Programm)
 ````
 
 <br> 
@@ -239,8 +239,8 @@ Install:
 - cd Springboot
 - mvn install
 - mvn spring-boot:run
-- In Browser öffnen: http://localhost:1234
-- Um Vorgang zu beenden im Terminal drücken: strg + c 
+Im Browser öffnen: http://localhost:1234
+- strg + c (Beendet das Ganze)
 ````
 
 ***
@@ -267,10 +267,10 @@ Install:
 - cd SpringBoot_JPA_SQL
 - mvn install
 - mvn spring-boot:run
-- In Browser öffnen: http://localhost:8080
-- http://localhost:8080/create?email=[max.mustermann@test.de]&name=[Max]
+Im Browser öffnen: http://localhost:8080
+http://localhost:8080/create?email=[max.mustermann@test.de]&name=[Max]
     -> legt beispielsweise eine Nutzer an
-- Um Vorgang zu beenden im Terminal drücken: strg + c 
+- strg + c (Beendet das Ganze)
 
 # SQL Teil:
 Hier kann man alle Nutzer sehen und auch alle löschen
@@ -327,6 +327,7 @@ Springboot - meine Master Anwendung: <br>
 - cd SpringJpa
 - mvn install
 - mvn spring-boot:run
+Im Browser öffnen: http://localhost:5050
 - Daten eingeben
 
 
