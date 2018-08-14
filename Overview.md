@@ -86,7 +86,7 @@ Debuggen mit Android Devices: <a href="https://developers.google.com/web/tools/c
 <br> <br> 
 
 ## AndroidST_HelloWorld: 
-<a href="hhttps://github.com/FelixSchubi/AndroidST_HelloWorld">Link</a>
+<a href="https://github.com/FelixSchubi/AndroidST_HelloWorld">Link</a>
 
 Erste Android App: Einfache "Hello World" Applikation <br>
 Grundlage hierfür: <a href="https://developer.android.com/training/basics/firstapp/index.html"> Android Developer </a> <br>
@@ -307,6 +307,5 @@ Alle löschen: drop table User;
 **************************************
 - exit;
 ````
-<br>
-</center>
+
 
