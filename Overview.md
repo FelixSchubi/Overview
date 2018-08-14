@@ -22,10 +22,9 @@ Sachen die installiert werden müssen (Falls nicht mehr vorhanden): <br>
 - <a href="https://tecadmin.net/install-bower-on-ubuntu/">Bower </a> <br>
 - <a href="https://www.polymer-project.org/2.0/start/install-2-0">Polymer 2.0</a> <br>
 - <a href="https://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/">Maven</a> <br>
-
-
-
-
+--
+- Umgang mit den Terminal: <a href="https://wiki.ubuntuusers.de/Shell/Einf%C3%BChrung/"> Ubuntu Shell </a> <br>
+- Alles was in einem grauen Kasten steht und ein "-" davor hat sind Eingaben im Terminal
 <br> 
 <br> 
 <br> 
@@ -152,10 +151,32 @@ Testen von einfachen C - Programmen : <a href="http://cunit.sourceforge.net"> C-
 und <a href="https://github.com/FelixSchubi/C-Test/blob/master/Vorgehen_%3EDatabase.md"> hier </a> zu finden 
 - Als Hilfestellung kann das Programm <a href="https://netbeans.org/">Netbeans </a> verwendet werden
 - Beispiel: <a href="https://github.com/FelixSchubi/C-Test/blob/master/11_16.04.2018/Database.md"> Studentendatenbank </a>
+<br>
+<br>
+
+
+<b>  <p style="text-align: center;"> <a href="http://www.c-howto.de/tutorial/einfuehrung/compiler/linux/"> Kompilieren </a> von ".c / .h" Dateien (Beispiel): </p> </b>
 
 ```bash
-http://cunit.sourceforge.net/
+-git clone https://github.com/FelixSchubi/C-Test
+- cd C-Test/11_16.04.2018
+
+*******************************
+# Normale C Programme
+- gcc Database.c -o Database
+- ./Database ("Programm wird ausgeführt")
+- strg + c (Dadurch wird jedes C-Programm beendet)
+
+*******************************
+# C-Unit Programme (mit Tests)
+- gcc DatabaseTest.c -o DatabaseTest -lcunit
+- ./DatabaseTest
+- strg + c (Oder in diesem Fall auch "0 & Enter") 
+*******************************
+Wenn ".h" Dateien im Ordner sind reicht es aus nur
+ die ".c" zu kompilieren! Der Rest passiert automatisch.
 ````
+
 
 <br> 
 <br> 
@@ -176,10 +197,24 @@ Einstieg in Java und Lernen für das Studium
 - Einfacher Stack
 - Object Stack
 - Als Hilfestellung kann das Buch <a href="http://openbook.rheinwerk-verlag.de/javainsel/"> Java ist auch eine Insel von Christian Ullenbloom </a> verwendet werden
+
+<b>  <p style="text-align: center;"> <a href="https://javabeginners.de/Grundlagen/kompilieren.php"> Kompilieren </a> von ".java" Dateien: </p> </b>
+
+```bash
+- git clone https://github.com/FelixSchubi/Java
+- cd Java/Hello\ World/
+# Ein Beispiel
+- javac hWorld.java
+- java hWorld
+````
+
 <br> 
 <br> 
 <br> 
-***
+
+******
+
+<br>
 
 <h1> <p style="text-align: center;"> Springboot </p>  </b> </h1>
 
@@ -239,14 +274,15 @@ Install:
 
 # SQL Teil:
 Hier kann man alle Nutzer sehen und auch alle löschen
-*Alles im Terminal*
 - mysql -u root -p
 - Hamster12!?
 - use Flx_test;
 **************************************
-Nutzer anzeigen: select * from users;
+Nutzer anzeigen: 
+- select * from users;
 *********************
-Alle löschen: drop table users;
+Alle löschen: 
+- drop table users;
 **************************************
 - exit;
 ````
@@ -268,7 +304,7 @@ Kleine Anwendung im Terminal (rein Java): <br>
 - cd JpaWithSpringBoot
 - mvn install
 - mvn spring-boot:run
-- Daten eingeben
+ Daten eingeben
 ````
 ***
 <br> 
@@ -296,14 +332,15 @@ Springboot - meine Master Anwendung: <br>
 
 # SQL Teil 
 Hier kann man alle Nutzer sehen und auch alle löschen
-*Alles im Terminal*
 - mysql -u root -p
 - Hamster12!?
 - use User;
 **************************************
-Nutzer anzeigen: select * from User;
+Nutzer anzeigen: 
+- select * from User;
 *********************
-Alle löschen: drop table User;
+Alle löschen: 
+- drop table User;
 **************************************
 - exit;
 ````
