@@ -1,4 +1,9 @@
+<center>
+
+
 # Übersicht der Repositorys
+
+
 
 | Art | Repositorys |
 | --- | --- |
@@ -11,6 +16,14 @@
 | GoogleDrive | <a href="https://drive.google.com/drive/folders/1AB0nwOygYqtXZyS85GvHIWzMI0jG5L9G?usp=sharing">Link</a>
 
 <br>
+Sachen die installiert werden müssen (Falls nicht mehr vorhanden): <br>
+
+ - <a href="https://www.rosehosting.com/blog/install-npm-on-ubuntu-16-04/">Node.js</a> <br>
+- <a href="https://tecadmin.net/install-bower-on-ubuntu/">Bower </a> <br>
+- <a href="https://www.polymer-project.org/2.0/start/install-2-0">Polymer 2.0</a> <br>
+- <a href="https://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/">Maven</a> <br>
+
+
 
 
 <br> 
@@ -97,7 +110,7 @@ App Startet!
 <br> <br> <br>
 
 ## WetterGit: 
-<a href="hhttps://github.com/FelixSchubi/WetterGit">Link</a>
+<a href="https://github.com/FelixSchubi/WetterGit">Link</a>
 
 Einfach Android Applikarion für das Wetter<br>
 Grundlage hierfür: <a href="https://developer.android.com/training/basics/firstapp/index.html"> Udacity </a> <br>
@@ -189,7 +202,6 @@ Install:
 ```bash
 - git clone https://github.com/FelixSchubi/Springboot
 - cd Springboot
-- (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
 - In Browser öffnen: http://localhost:1234
@@ -218,7 +230,6 @@ Install:
 # SpringBoot Teil:
 - git clone https://github.com/FelixSchubi/SpringBoot_JPA_SQL
 - cd SpringBoot_JPA_SQL
-- (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
 - In Browser öffnen: http://localhost:8080
@@ -255,7 +266,6 @@ Kleine Anwendung im Terminal (rein Java): <br>
 ```bash
 - git clone https://github.com/FelixSchubi/JpaWithSpringBoot
 - cd JpaWithSpringBoot
-- (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
 - Daten eingeben
@@ -279,7 +289,6 @@ Springboot - meine Master Anwendung: <br>
 # Springboot Teil
 - git clone https://github.com/FelixSchubi/SpringJpa
 - cd SpringJpa
-- (Falls maven noch nich installiert wurde: sudo apt-get install maven )
 - mvn install
 - mvn spring-boot:run
 - Daten eingeben
@@ -298,6 +307,6 @@ Alle löschen: drop table User;
 **************************************
 - exit;
 ````
-
-
+<br>
+</center>
 
