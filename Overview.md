@@ -43,10 +43,10 @@ Polymer App Toolbox - Starter Kit <br>
 Kleine Web - Applikation um das <a href="https://www.polymer-project.org/2.0/docs/about_20">Polymer 2 </a> Framework kennenzulernen.<br>
 Install Guide:
 ```bash
-git clone https://github.com/FelixSchubi/Polymer2_test
-cd Polymer2_test
-bower i
-polymer serve --open 
+- git clone https://github.com/FelixSchubi/Polymer2_test
+- cd Polymer2_test
+- bower i
+- polymer serve --open 
 ````
 Im Bezug dazu wurde eine eigene Website erstellt.<br>
 Bei dieser kann man sich mit einem Google Konto anmelden und Notizen Offline speichern und von jedem Gerät mit dem gleichen Konto abrufen.
@@ -64,10 +64,10 @@ Grundlage hierfür war die:" <a href="https://www.polymer-project.org/2.0/toolbo
 
 
 ```bash
-git clone https://github.com/FelixSchubi/News-App
-cd News-App
-bower i
-polymer serve --open 
+- git clone https://github.com/FelixSchubi/News-App
+- cd News-App
+- bower i
+- polymer serve --open 
 ````
 
 <br> 
